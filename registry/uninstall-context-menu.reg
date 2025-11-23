@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Claude Code - Right-Click Context Menu Removal
+; This removes "Open with Claude Code" from folder right-click menus
+;
+; Usage:
+;   1. Double-click this file
+;   2. Click "Yes" to remove from registry
+;   3. Right-click context menu items will be removed
+
+; Remove PRIMARY launcher entries
+[-HKEY_CLASSES_ROOT\Directory\shell\ClaudeCode]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\ClaudeCode]
+
+; Remove CONTINUE launcher entries
+[-HKEY_CLASSES_ROOT\Directory\shell\ClaudeCodeContinue]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\ClaudeCodeContinue]

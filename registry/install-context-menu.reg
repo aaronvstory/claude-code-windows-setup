@@ -1,0 +1,52 @@
+Windows Registry Editor Version 5.00
+
+; Claude Code - Right-Click Context Menu Installation
+; This adds "Open with Claude Code" to folder right-click menus
+;
+; IMPORTANT: Edit the launcher path below to match your installation
+; Default: C:\claude\launchers\right-click\claude-code-clean-launcher.bat
+;
+; Usage:
+;   1. Double-click this file
+;   2. Click "Yes" to add to registry
+;   3. Right-click any folder -> "Open with Claude Code" should appear
+
+; ==============================================================================
+; PRIMARY LAUNCHER - Open with Claude Code
+; ==============================================================================
+
+; Folder context menu (right-click on folder)
+[HKEY_CLASSES_ROOT\Directory\shell\ClaudeCode]
+@="Open with Claude Code"
+"Icon"="C:\\Windows\\System32\\imageres.dll,190"
+
+[HKEY_CLASSES_ROOT\Directory\shell\ClaudeCode\command]
+@="\"C:\\claude\\launchers\\right-click\\claude-code-clean-launcher.bat\" \"%V\""
+
+; Background context menu (right-click inside folder on empty space)
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ClaudeCode]
+@="Open with Claude Code"
+"Icon"="C:\\Windows\\System32\\imageres.dll,190"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ClaudeCode\command]
+@="\"C:\\claude\\launchers\\right-click\\claude-code-clean-launcher.bat\" \"%V\""
+
+; ==============================================================================
+; CONTINUE LAUNCHER - Resume Last Conversation
+; ==============================================================================
+
+; Folder context menu (right-click on folder)
+[HKEY_CLASSES_ROOT\Directory\shell\ClaudeCodeContinue]
+@="Continue with Claude Code"
+"Icon"="C:\\Windows\\System32\\imageres.dll,191"
+
+[HKEY_CLASSES_ROOT\Directory\shell\ClaudeCodeContinue\command]
+@="\"C:\\claude\\launchers\\right-click\\claude-code-clean-launcher-continue.bat\" \"%V\""
+
+; Background context menu (right-click inside folder on empty space)
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ClaudeCodeContinue]
+@="Continue with Claude Code"
+"Icon"="C:\\Windows\\System32\\imageres.dll,191"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ClaudeCodeContinue\command]
+@="\"C:\\claude\\launchers\\right-click\\claude-code-clean-launcher-continue.bat\" \"%V\""
