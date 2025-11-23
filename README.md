@@ -42,7 +42,7 @@ Solves path translation, Git Bash integration, MSYS mangling, and 8+ other Windo
 
 ```powershell
 # Clone or download this repository
-git clone https://github.com/YOUR-USERNAME/claude-code-windows-setup.git
+git clone https://github.com/aaronvstory/claude-code-windows-setup.git
 cd claude-code-windows-setup
 
 # Run installer as Administrator (for context menu)
@@ -520,7 +520,7 @@ Contributions welcome! Here's how you can help:
 ### Report Issues
 
 **Found a bug?**
-1. Check existing issues: https://github.com/YOUR-USERNAME/claude-code-windows-setup/issues
+1. Check existing issues: https://github.com/aaronvstory/claude-code-windows-setup/issues
 2. Create new issue with:
    - Windows version (10/11)
    - Node.js version
@@ -693,7 +693,7 @@ Installer checks and warns if using old version.
 - Review Troubleshooting section above
 
 **Issues:**
-- GitHub Issues: https://github.com/YOUR-USERNAME/claude-code-windows-setup/issues
+- GitHub Issues: https://github.com/aaronvstory/claude-code-windows-setup/issues
 - win-claude-code: https://github.com/somersby10ml/win-claude-code/issues
 - Claude Code: https://claude.ai
 
@@ -708,7 +708,7 @@ Installer checks and warns if using old version.
 
 ```powershell
 # Clone this repository
-git clone https://github.com/YOUR-USERNAME/claude-code-windows-setup.git
+git clone https://github.com/aaronvstory/claude-code-windows-setup.git
 cd claude-code-windows-setup
 
 # Run installer (as Admin for context menu)

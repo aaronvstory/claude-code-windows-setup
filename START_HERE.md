@@ -36,8 +36,8 @@ A complete, production-ready GitHub repository with:
 ```bash
 cd C:\claude\claude-code-windows-setup
 
-# Add your GitHub repository as remote (replace YOUR-USERNAME)
-git remote add origin https://github.com/YOUR-USERNAME/claude-code-windows-setup.git
+# Add your GitHub repository as remote (replace aaronvstory)
+git remote add origin https://github.com/aaronvstory/claude-code-windows-setup.git
 
 # Push to GitHub
 git branch -M main
@@ -51,11 +51,11 @@ git push -u origin main
 **Before sharing publicly, update the README:**
 
 Open `README.md` and find/replace:
-- `YOUR-USERNAME` → your actual GitHub username (appears ~8 times)
+- `aaronvstory` → your actual GitHub username (appears ~8 times)
 
 ```bash
 # Quick update via sed (Git Bash)
-sed -i 's/YOUR-USERNAME/your-actual-username/g' README.md
+sed -i 's/aaronvstory/your-actual-username/g' README.md
 git add README.md
 git commit -m "Update README with actual GitHub username"
 git push
@@ -188,7 +188,7 @@ The repository includes **two** context menu entries:
 
 ```bash
 # On new machine
-git clone https://github.com/YOUR-USERNAME/claude-code-windows-setup.git
+git clone https://github.com/aaronvstory/claude-code-windows-setup.git
 cd claude-code-windows-setup
 .\installer\install-claude-windows.ps1
 ```
@@ -214,7 +214,7 @@ Copy-Item -Path "C:\claude\claude-code-windows-setup" -Destination "\\other-mach
 
 **Share the GitHub link:**
 ```
-https://github.com/YOUR-USERNAME/claude-code-windows-setup
+https://github.com/aaronvstory/claude-code-windows-setup
 ```
 
 **Instructions to give them:**
@@ -247,7 +247,7 @@ I've created a complete setup that solves 8+ Windows-specific problems.
 ✅ Auto-relaunch on crash
 ✅ WSL support
 
-GitHub: https://github.com/YOUR-USERNAME/claude-code-windows-setup
+GitHub: https://github.com/aaronvstory/claude-code-windows-setup
 
 Fully documented, MIT licensed, ready to use!
 ```
@@ -351,7 +351,7 @@ git push
 
 **If you lose local files:**
 ```bash
-git clone https://github.com/YOUR-USERNAME/claude-code-windows-setup.git
+git clone https://github.com/aaronvstory/claude-code-windows-setup.git
 ```
 
 ### Version Tagging
@@ -376,15 +376,15 @@ git push origin v1.1.0
 # Use PAT as password when prompted
 ```
 
-### Issue: "YOUR-USERNAME" still appears in files
+### Issue: "aaronvstory" still appears in files
 
 **Fix:**
 ```bash
 # Find all occurrences
-git grep "YOUR-USERNAME"
+git grep "aaronvstory"
 
 # Replace in specific file
-sed -i 's/YOUR-USERNAME/actual-username/g' README.md
+sed -i 's/aaronvstory/actual-username/g' README.md
 
 # Commit change
 git add README.md

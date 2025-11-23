@@ -33,11 +33,11 @@ The repository is already initialized with git. Now connect it to GitHub:
 ```bash
 cd C:\claude\claude-code-windows-setup
 
-# Add remote (replace YOUR-USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR-USERNAME/claude-code-windows-setup.git
+# Add remote (replace aaronvstory with your GitHub username)
+git remote add origin https://github.com/aaronvstory/claude-code-windows-setup.git
 
 # Or use SSH if you have it configured
-git remote add origin git@github.com:YOUR-USERNAME/claude-code-windows-setup.git
+git remote add origin git@github.com:aaronvstory/claude-code-windows-setup.git
 
 # Verify remote
 git remote -v
@@ -167,7 +167,7 @@ Create a release when:
 
      ## 📦 Installation
      ```bash
-     git clone https://github.com/YOUR-USERNAME/claude-code-windows-setup.git
+     git clone https://github.com/aaronvstory/claude-code-windows-setup.git
      cd claude-code-windows-setup
      .\installer\install-claude-windows.ps1
      ```
@@ -185,7 +185,7 @@ Create a release when:
      - win-claude-code: 1.0.7 (stable)
 
      ## 🐛 Bug Reports
-     https://github.com/YOUR-USERNAME/claude-code-windows-setup/issues
+     https://github.com/aaronvstory/claude-code-windows-setup/issues
      ```
 5. Click **"Publish release"**
 
@@ -211,7 +211,7 @@ git push origin v1.0.0
 
 Before sharing, update the README:
 
-1. Replace all `YOUR-USERNAME` with your actual GitHub username
+1. Replace all `aaronvstory` with your actual GitHub username
 2. Update clone URLs
 3. Update issue tracker URLs
 4. Add your contact info (optional)
@@ -219,7 +219,7 @@ Before sharing, update the README:
 **Find and replace:**
 ```bash
 # In README.md and other docs
-# Replace: YOUR-USERNAME
+# Replace: aaronvstory
 # With: your-actual-username
 ```
 
@@ -484,9 +484,9 @@ Your repository is now:
 ```bash
 # 1. Create GitHub repository (see Step 1)
 
-# 2. Add remote (replace YOUR-USERNAME)
+# 2. Add remote (replace aaronvstory)
 cd C:\claude\claude-code-windows-setup
-git remote add origin https://github.com/YOUR-USERNAME/claude-code-windows-setup.git
+git remote add origin https://github.com/aaronvstory/claude-code-windows-setup.git
 
 # 3. Push!
 git branch -M main
